@@ -28,6 +28,7 @@ body {
 
 #page {
     max-width: 384px;
+    min-width: 200px;
     margin: auto;
 }
 
@@ -35,6 +36,12 @@ header {
     background-color: var(--bc-header);
     padding: 3.2rem 0 2.9rem;
     text-align: center;
+}
+
+header img {
+    max-width: 218px;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
